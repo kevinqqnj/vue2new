@@ -5,8 +5,11 @@
     </div>
 </template>
 <style>
-    body{
-        /*background-color:#ff0000;*/
+    #firstcomponent {
+        /*border-style: dashed;*/
+        /*border-width: 1.5px;*/
+        /*border-color: lightsalmon;*/
+        background-color: #ccc;
     }
 </style>
 <script>

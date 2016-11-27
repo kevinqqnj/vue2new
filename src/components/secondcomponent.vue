@@ -2,16 +2,22 @@
     <div id="secondcomponent">
         <h1>I'm 2nd page</h1>
         <ul>
-            <li v-for="article in articles">
+            <span v-for="article in articles">
             <img :src="article.images.medium"><span v-text="article.title"></span>
-        </li>
+        </span>
         </ul>
     </div>
 </template>
 <style>
     #secondcomponent {
-        background-color: gold;
+        /*border-style: dashed;*/
+        /*border-width: 1.5px;*/
+        /*border-color: darkgreen;*/
+        background-color: bisque;
+        /*left: 20%;*/
+        /*position: absolute;*/
     }
+
 </style>
 <script>
 //    import HeaderComponent from './components/header.vue'
@@ -19,7 +25,7 @@
     export default{
         data(){
             return{
-                author: "小蒙蒙",
+                author: "Kevin",
                 articles: []
             }
         },
