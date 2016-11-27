@@ -2,4 +2,6 @@
 node_modules/
 dist/
 npm-debug.log
-tmp
+tmp/
+.idea/
+.sqlite
