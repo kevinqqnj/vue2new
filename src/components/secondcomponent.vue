@@ -1,4 +1,5 @@
 <template>
+
     <div id="secondcomponent">
         <h1>I'm 2nd page</h1>
         <ul>
@@ -13,7 +14,7 @@
         /*border-style: dashed;*/
         /*border-width: 1.5px;*/
         /*border-color: darkgreen;*/
-        background-color: bisque;
+        background-color: gold;
         /*left: 20%;*/
         /*position: absolute;*/
     }

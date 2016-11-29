@@ -28,13 +28,18 @@ module.exports = {
         options: {
           name: '[name].[ext]?[hash]'
         }
-      }
+      },
+        {
+            test: /\.(less|css)$/,
+            loader: 'style-loader!css-loader!autoprefixer-loader!less-loader'
+        }
     ]
   },
   resolve: {
     alias: {
       // 'vue$': 'vue/dist/vue.common.js'
-        'vue': 'vue/dist/vue.js'
+        'vue': 'vue/dist/vue.js',
+        'muse-components': 'muse-ui/src'
     }
   },
   devServer: {

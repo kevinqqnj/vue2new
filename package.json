@@ -1,6 +1,6 @@
 {
   "name": "vue2new",
-  "description": "A Vue.js project",
+  "description": "A Vue.js 2.0 quickstart project",
   "author": "Kevin ZQ",
   "private": true,
   "scripts": {
@@ -8,11 +8,13 @@
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "dependencies": {
+    "muse-ui": "^2.0.0-alpha.10",
     "vue": "^2.1.0",
     "vue-resource": "^1.0.3",
     "vue-router": "^2.0.3"
   },
   "devDependencies": {
+    "autoprefixer-loader": "^3.2.0",
     "babel-core": "^6.0.0",
     "babel-loader": "^6.0.0",
     "babel-preset-es2015": "^6.0.0",
@@ -23,10 +25,13 @@
     "express": "^4.14.0",
     "file-loader": "^0.9.0",
     "http-proxy-middleware": "^0.17.2",
+    "less": "^2.7.1",
+    "less-loader": "^2.2.3",
     "opn": "^4.0.2",
     "serve-index": "^1.8.0",
     "sockjs": "^0.3.18",
     "spdy": "^3.4.4",
+    "style-loader": "^0.13.1",
     "vue-loader": "^10.0.0",
     "vue-template-compiler": "^2.1.0",
     "webpack": "^2.1.0-beta.25",
